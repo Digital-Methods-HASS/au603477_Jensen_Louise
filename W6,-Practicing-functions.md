@@ -1,7 +1,7 @@
-1.  Define a defensive function that calculates the Gross Domestic
-    Product of a nation from the data available in the gapminder
-    dataset. Using that function, calculate the GDP of Denmark in the
-    following years: 1967, 1977, 1987, 1997, 2007, and 2017.
+Define a defensive function that calculates the Gross Domestic Product
+of a nation from the data available in the gapminder dataset. Using that
+function, calculate the GDP of Denmark in the following years: 1967,
+1977, 1987, 1997, 2007, and 2017.
 
 ``` r
 # Defining function
@@ -34,10 +34,10 @@ gdp_nation_calc(data = gapminder, year = c(1967, 1977, 1987, 1997, 2007, 2017), 
     ## 4 Denmark 1997 157476118456
     ## 5 Denmark 2007 192906627081
 
-1.  Write a script that loops over each country in the gapminder
-    dataset, tests whether the country starts with a ‘B’ , and print out
-    whether the life expectancy is smaller than 50, between 50 and 70,
-    or greater than 70.
+Write a script that loops over each country in the gapminder dataset,
+tests whether the country starts with a ‘B’ , and print out whether the
+life expectancy is smaller than 50, between 50 and 70, or greater than
+70.
 
 ``` r
 # countries starting with B
@@ -208,7 +208,7 @@ for (country in unique(gapminder$country)){
     ## [1] "The country Zambia does not start with a 'B'"
     ## [1] "The country Zimbabwe does not start with a 'B'"
 
-1.  Optional: Write a script that loops over each country in the
-    gapminder dataset, tests whether the country starts with a ‘M’ and
-    graphs life expectancy against time (using plot() function) as a
-    line graph if the mean life expectancy is under 50 years.
+Optional: Write a script that loops over each country in the gapminder
+dataset, tests whether the country starts with a ‘M’ and graphs life
+expectancy against time (using plot() function) as a line graph if the
+mean life expectancy is under 50 years.
