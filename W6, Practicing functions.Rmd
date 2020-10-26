@@ -3,7 +3,8 @@ title: 'W6: Practicing functions'
 author: "Louise"
 date: "26/10/2020"
 output:
-  html_document: default
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
